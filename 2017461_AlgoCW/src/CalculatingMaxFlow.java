@@ -109,8 +109,8 @@ class CalculatingMaxFlow{
         for(int i=0; i<array1.length; i++){
             for(int j=0; j<array1.length; j++){
 
-                int min= 5;
-                int max= 20;
+                int min=0;
+                int max=5;
 
                 flowOfGraph=(int) (Math.random() * ( (max - min) + 1)) + min;
 
